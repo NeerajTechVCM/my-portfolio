@@ -60,7 +60,9 @@ const Navbar = () => {
           {/* Download Button */}
           <div className="hidden md:block">
             <a
-              href={cv}
+             href="/resume.pdf"
+      
+
               download
               className="px-5 py-2 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 text-white font-semibold shadow-md hover:from-pink-500 hover:to-yellow-400 hover:shadow-pink-500/50 transition duration-300"
               style={glow}

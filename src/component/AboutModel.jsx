@@ -16,7 +16,7 @@ function About3DModel() {
 export default function AboutModel() {
   return (
    
-      <Canvas   dpr={[1, 1.5]} camera={{ position: [2, 1.5, 4], fov: 50 }} style={{ background: "transparent" }}>
+      <Canvas   camera={{ position: [2, 1.5, 4], fov: 50 }} style={{ background: "transparent" }}>
         <ambientLight intensity={0.4} />
         <directionalLight position={[5, 5, 5]} intensity={1.2} />
         <Suspense fallback={<Loader />}>

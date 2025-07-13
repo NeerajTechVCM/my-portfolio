@@ -22,6 +22,7 @@ function Model({ path }) {
 export default function ModelViewer({ path }) {
   return (
     <Canvas
+     dpr={[1, 1.5]}
       camera={{ position: [2, -3.5, 3.5], fov: 50 }}
       style={{ background: "transparent" }}
     >

@@ -16,7 +16,7 @@ export default function LaptopViewer() {
   return (
 
       <Canvas
-
+ dpr={[1, 1.5]}
         camera={{ position: [2, 1.5, 4], fov: 50 }}
         style={{ background: "transparent" }} // No box background
       >

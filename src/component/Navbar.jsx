@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
-import cv from "../assets/resume.pdf";
+
 import profilePic from "../assets/profile.jpg"; // make sure the image exists
 
 const Navbar = () => {

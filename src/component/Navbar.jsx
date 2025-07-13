@@ -95,7 +95,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href={cv}
+            href="/resume.pdf"
             download
             className="block mt-2 text-center px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500 to-violet-500 hover:from-pink-500 hover:to-yellow-400 text-white transition"
             style={glow}

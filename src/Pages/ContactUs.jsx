@@ -83,7 +83,7 @@ export default function Contact() {
 
         {/* 3D Model */}
         <div className="w-full md:w-1/2 h-[450px]">
-          <ModelViewer path="/models/earth.glb" />
+          <ModelViewer path="/models/earth2.glb" />
         </div>
       </div>
     </section>

@@ -37,4 +37,4 @@ export default function ModelViewer({ path }) {
       <OrbitControls enableZoom={false} enablePan={false} autoRotate autoRotateSpeed={2} />
     </Canvas>
   );
-}
+} 

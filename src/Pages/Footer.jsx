@@ -18,7 +18,7 @@ export default function Footer() {
           </p>
         </div>
 
-      \npm s
+ 
         <div className="flex gap-6">
           <a
             href="https://github.com/NeerajTechVCM"

@@ -62,7 +62,7 @@ function App() {
                     backgroundColor: "#74ff84",
                 }}
             />
-        {/* <Particle/> */}
+        <Particle/>
  
         <Navbar />
         <Home topRef={topRef} />

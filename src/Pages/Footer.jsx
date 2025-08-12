@@ -18,7 +18,7 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Right Side - Social Icons */}
+      \npm s
         <div className="flex gap-6">
           <a
             href="https://github.com/NeerajTechVCM"

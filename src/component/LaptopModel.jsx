@@ -28,8 +28,7 @@ export default function LaptopViewer() {
       style={{ background: "transparent" }}
     >
       <ambientLight intensity={0.5} />
-      {/* Optional light — can be removed if unnecessary */}
-      {/* <directionalLight position={[3, 3, 3]} intensity={0.8} /> */}
+    
 
       <Suspense fallback={<Loader />}>
         <LaptopModel />
